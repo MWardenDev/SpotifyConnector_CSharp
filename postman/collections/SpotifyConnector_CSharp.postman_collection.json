@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "d1226d38-758d-4336-9b2c-a902487b701d",
+		"name": "SpotifyConnector_CSharp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10109625"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Start Spotify Login",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/auth/login",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Get Current User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/me",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"me"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Playlists",
+			"item": [
+				{
+					"name": "Import Playlist From JSON",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"Bare-Chested Hack & Slash\",\r\n  \"description\": \"Swords, sorcery, and questionable armor design.\",\r\n  \"public\": false,\r\n  \"tracks\": [\r\n    { \"search\": \"Anvil of Crom Conan the Barbarian\" },\r\n    { \"search\": \"The Beastmaster Main Title\" },\r\n    { \"search\": \"Princes of the Universe Queen\" }\r\n  ]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_url}}/playlists/import",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"playlists",
+								"import"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
