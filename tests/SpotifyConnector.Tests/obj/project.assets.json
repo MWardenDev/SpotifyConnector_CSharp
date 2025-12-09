@@ -8,34 +8,25 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\mward\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Warde\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj",
+      "projectUniqueName": "C:\\RepoVault\\SpotifyConnector_CSharp\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj",
       "projectName": "SpotifyConnector.Tests",
-      "projectPath": "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj",
-      "packagesPath": "C:\\Users\\mward\\.nuget\\packages\\",
-      "outputPath": "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\tests\\SpotifyConnector.Tests\\obj\\",
+      "projectPath": "C:\\RepoVault\\SpotifyConnector_CSharp\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj",
+      "packagesPath": "C:\\Users\\Warde\\.nuget\\packages\\",
+      "outputPath": "C:\\RepoVault\\SpotifyConnector_CSharp\\tests\\SpotifyConnector.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "centralPackageVersionsManagementEnabled": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mward\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Warde\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -53,8 +44,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -82,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
