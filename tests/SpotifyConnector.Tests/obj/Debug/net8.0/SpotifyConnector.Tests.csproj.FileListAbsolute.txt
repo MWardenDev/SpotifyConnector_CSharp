@@ -25,3 +25,4 @@ C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\tests\SpotifyConnector.Test
 C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\tests\SpotifyConnector.Tests\obj\Debug\net8.0\SpotifyConnector.Tests.pdb
 C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\tests\SpotifyConnector.Tests\obj\Debug\net8.0\SpotifyConnector.Tests.genruntimeconfig.cache
 C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\tests\SpotifyConnector.Tests\obj\Debug\net8.0\ref\SpotifyConnector.Tests.dll
+C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\tests\SpotifyConnector.Tests\obj\Debug\net8.0\SpotifyConnector.Tests.sourcelink.json
