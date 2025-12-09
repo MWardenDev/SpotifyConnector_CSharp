@@ -174,4 +174,4 @@ It’s intentionally clean, minimal, and readable for engineers and interviewers
 
 ## 📜 License
 
-(Add a license if desired.)
+
