@@ -1,34 +1,42 @@
 {
   "format": 1,
   "restore": {
-    "C:\\RepoVault\\SpotifyConnector_CSharp\\src\\SpotifyConnector.Spotify\\SpotifyConnector.Spotify.csproj": {}
+    "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\src\\SpotifyConnector.Spotify\\SpotifyConnector.Spotify.csproj": {}
   },
   "projects": {
-    "C:\\RepoVault\\SpotifyConnector_CSharp\\src\\SpotifyConnector.Spotify\\SpotifyConnector.Spotify.csproj": {
+    "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\src\\SpotifyConnector.Spotify\\SpotifyConnector.Spotify.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RepoVault\\SpotifyConnector_CSharp\\src\\SpotifyConnector.Spotify\\SpotifyConnector.Spotify.csproj",
+        "projectUniqueName": "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\src\\SpotifyConnector.Spotify\\SpotifyConnector.Spotify.csproj",
         "projectName": "SpotifyConnector.Spotify",
-        "projectPath": "C:\\RepoVault\\SpotifyConnector_CSharp\\src\\SpotifyConnector.Spotify\\SpotifyConnector.Spotify.csproj",
-        "packagesPath": "C:\\Users\\Warde\\.nuget\\packages\\",
-        "outputPath": "C:\\RepoVault\\SpotifyConnector_CSharp\\src\\SpotifyConnector.Spotify\\obj\\",
+        "projectPath": "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\src\\SpotifyConnector.Spotify\\SpotifyConnector.Spotify.csproj",
+        "packagesPath": "C:\\Users\\mward\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\src\\SpotifyConnector.Spotify\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Warde\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mward\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\RepoVault\\SpotifyConnector_CSharp\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj": {
-                "projectPath": "C:\\RepoVault\\SpotifyConnector_CSharp\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj"
+              "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj": {
+                "projectPath": "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj"
               }
             }
           }
@@ -42,7 +50,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -67,27 +76,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\RepoVault\\SpotifyConnector_CSharp\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj": {
+    "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\RepoVault\\SpotifyConnector_CSharp\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj",
+        "projectUniqueName": "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj",
         "projectName": "SpotifyConnector.Tests",
-        "projectPath": "C:\\RepoVault\\SpotifyConnector_CSharp\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj",
-        "packagesPath": "C:\\Users\\Warde\\.nuget\\packages\\",
-        "outputPath": "C:\\RepoVault\\SpotifyConnector_CSharp\\tests\\SpotifyConnector.Tests\\obj\\",
+        "projectPath": "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj",
+        "packagesPath": "C:\\Users\\mward\\.nuget\\packages\\",
+        "outputPath": "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\tests\\SpotifyConnector.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "centralPackageVersionsManagementEnabled": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Warde\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\mward\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -105,7 +122,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -133,7 +151,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.416/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

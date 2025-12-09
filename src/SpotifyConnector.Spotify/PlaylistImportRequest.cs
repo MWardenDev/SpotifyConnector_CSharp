@@ -1,6 +1,6 @@
 namespace SpotifyConnector.Spotify;
 
-public class PlayListImportRequest {
+public class PlaylistImportRequest {
     public string Name{ get; set; } = string.Empty;
     public string? Description { get; set; }
 

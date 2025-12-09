@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r5bgRCGTVRs=",
+  "dgSpecHash": "IzG85LilI7I=",
   "success": true,
-  "projectFilePath": "C:\\RepoVault\\SpotifyConnector_CSharp\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj",
+  "projectFilePath": "C:\\Work\\RepoVault\\Education\\C-Sharp\\SpotifyConnector\\tests\\SpotifyConnector.Tests\\SpotifyConnector.Tests.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

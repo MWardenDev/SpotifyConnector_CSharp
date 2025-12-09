@@ -132,4 +132,34 @@ public class SpotifyApiClient : ISpotifyApiClient {
         var uri = uriElement.GetString();
         return string.IsNullOrWhiteSpace(uri) ? null : uri;
     }
+
+    public async Task AddTracksToPlaylistAsync(
+        string playlistId,
+        IReadOnlyCollection<string> trackUris,
+        CancellationToken cancellationToken = default) {
+        
+        if( trackUris.Count == 0) {
+            return;
+        }
+
+        var client = await GetAuthorizedClientAsync(cancellationToken);
+
+        // Note: Spotify allows up to 100 URIs per request
+        var payload = new {
+            uris = trackUris
+        };
+
+        var jsonBody = JsonSerializer.Serialize(payload);
+        using var content = new StringContent(jsonBody, Encoding.UTF8, "application/json");
+
+        using var response =
+            await client.PostAsync($"{ApiBaseUrl}/playlist/{Uri.EscapeDataString(playlistId)}/tracks", content, cancellationToken);
+
+        var json = await response.Content.ReadAsStringAsync(cancellationToken);
+
+        if((!response.IsSuccessStatusCode)) {
+            throw new InvalidOperationException(
+                $"Failed to add tracks to playlist.  Status {(int)response.StatusCode}: {json}");
+        }
+    }
 }
