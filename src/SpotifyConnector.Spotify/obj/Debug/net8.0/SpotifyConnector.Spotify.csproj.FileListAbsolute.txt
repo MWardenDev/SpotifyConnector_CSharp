@@ -19,3 +19,4 @@ C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\src\SpotifyConnector.Spotif
 C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\src\SpotifyConnector.Spotify\obj\Debug\net8.0\refint\SpotifyConnector.Spotify.dll
 C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\src\SpotifyConnector.Spotify\obj\Debug\net8.0\SpotifyConnector.Spotify.pdb
 C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\src\SpotifyConnector.Spotify\obj\Debug\net8.0\ref\SpotifyConnector.Spotify.dll
+C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\src\SpotifyConnector.Spotify\obj\Debug\net8.0\SpotifyConnector.Spotify.sourcelink.json

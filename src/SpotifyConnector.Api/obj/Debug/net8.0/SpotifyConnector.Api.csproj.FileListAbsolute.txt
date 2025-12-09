@@ -62,3 +62,4 @@ C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\src\SpotifyConnector.Api\bi
 C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\src\SpotifyConnector.Api\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\src\SpotifyConnector.Api\bin\Debug\net8.0\System.Text.Json.dll
 C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\src\SpotifyConnector.Api\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Work\RepoVault\Education\C-Sharp\SpotifyConnector\src\SpotifyConnector.Api\obj\Debug\net8.0\SpotifyConnector.Api.sourcelink.json
