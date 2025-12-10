@@ -1,0 +1,151 @@
+type: collection.insomnia.rest/5.0
+schema_version: "5.1"
+name: Spotify API
+meta:
+  id: wrk_2cd0cdab13074be3b3e643967469c82f
+  created: 1765322510108
+  modified: 1765322510108
+  description: ""
+collection:
+  - name: Auth
+    meta:
+      id: fld_1ad05b38264a4c5d9aec45c0621f6bee
+      created: 1765322604113
+      modified: 1765322663266
+      sortKey: -1765322626291
+      description: ""
+    children:
+      - url: "{{ base_url }}/auth/login"
+        name: Login - Get Authorization URL
+        meta:
+          id: req_27b4d67d85c741ebac8d54a6245931ce
+          created: 1765322702304
+          modified: 1765324213038
+          isPrivate: false
+          description: ""
+          sortKey: -1765322702304
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/12.1.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: Users
+    meta:
+      id: fld_97c6d206a3bd440d901a3e7e4a4bd6ee
+      created: 1765322613646
+      modified: 1765322667365
+      sortKey: -1765322626241
+      description: ""
+    children:
+      - url: "{{ base_url }}/me"
+        name: Me - Get Current User
+        meta:
+          id: req_e81523a427a24778abd966627e92543a
+          created: 1765325564583
+          modified: 1765325612557
+          isPrivate: false
+          description: ""
+          sortKey: -1765325564583
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/12.1.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+  - name: Playlists
+    meta:
+      id: fld_f954963aa7e442eeaeb16c8293abd444
+      created: 1765322625991
+      modified: 1765322660729
+      sortKey: -1765322626191
+      description: ""
+    children:
+      - url: "{{ base_url }}/playlists/import"
+        name: Import Playlist from JSON
+        meta:
+          id: req_c89c42b4b64e4ec8971d2b9fa3cb5c01
+          created: 1765326854407
+          modified: 1765326963485
+          isPrivate: false
+          description: ""
+          sortKey: -1765326854407
+        method: POST
+        body:
+          mimeType: application/json
+          text: |
+            {
+              "name": "Bare-Chested Hack & Slash",
+              "description": "Swords, sorcery, and questionable armor design.",
+              "public": false,
+              "tracks": [
+                { "search": "Anvil of Crom Conan the Barbarian" },
+                { "search": "The Beastmaster Main Title" },
+                { "search": "Princes of the Universe Queen" }
+              ]
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/12.1.0
+            description: ""
+            disabled: false
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_08a9f5335264c2f0c3814a2542ad8d0b9c425947
+    created: 1765322510133
+    modified: 1765327480048
+  cookies:
+    - id: c0d6f924-2bc5-4ad4-b2d6-bccf69b480e2
+      key: __Host-device_id
+      value: AQCrtKOddmiFMPqXduht663a-ZSlyOZ-SbbVvQ2DIXGpLC64jgvsBQzjN6nJYzcjBBfSvkyVTkFZtUg5-MTJpAuE1bj-B-ZKYO8
+      domain: 127.0.0.1
+      path: /
+      secure: true
+      httpOnly: true
+      extensions:
+        - Version=1
+      hostOnly: true
+    - id: 1813331f-46da-44fa-b58b-75fabf993d48
+      key: __Host-sp_csrf_sid
+      value: 6cacae33046eae4367454b6f5b56effd6f964e9cce41af165472ceb19c4e53d0
+      domain: 127.0.0.1
+      path: /
+      secure: true
+      httpOnly: true
+      hostOnly: true
+environments:
+  name: Base Environment
+  meta:
+    id: env_08a9f5335264c2f0c3814a2542ad8d0b9c425947
+    created: 1765322510129
+    modified: 1765323940687
+    isPrivate: false
+  data:
+    base_url: https://127.0.0.1:5001
