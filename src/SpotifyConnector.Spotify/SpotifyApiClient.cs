@@ -153,7 +153,8 @@ public class SpotifyApiClient : ISpotifyApiClient {
         using var content = new StringContent(jsonBody, Encoding.UTF8, "application/json");
 
         using var response =
-            await client.PostAsync($"{ApiBaseUrl}/playlist/{Uri.EscapeDataString(playlistId)}/tracks", content, cancellationToken);
+            await client.PostAsync($"{ApiBaseUrl}/playlists/{Uri.EscapeDataString(playlistId)}/tracks", content, cancellationToken);
+
 
         var json = await response.Content.ReadAsStringAsync(cancellationToken);
 
