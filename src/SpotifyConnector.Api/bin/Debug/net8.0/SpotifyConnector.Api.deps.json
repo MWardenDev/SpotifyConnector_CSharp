@@ -325,7 +325,7 @@
         },
         "runtime": {
           "SpotifyConnector.Spotify.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
@@ -333,7 +333,7 @@
       "SpotifyConnector.Tests/1.0.0": {
         "runtime": {
           "SpotifyConnector.Tests.dll": {
-            "assemblyVersion": "1.0.0.0",
+            "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
